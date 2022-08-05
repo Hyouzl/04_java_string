@@ -11,7 +11,7 @@ import java.util.Scanner;
  * 출력 = false
  */
 
-public class StringEx14_문제 {
+public class StringEx14_정답 {
 
 	public static void main(String[] args) {
 		

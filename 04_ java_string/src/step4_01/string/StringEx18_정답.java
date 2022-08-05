@@ -12,7 +12,7 @@ import java.util.Scanner;
 	4) 전부 벗겨지거나 맞추면 종료 
 
 */
-public class StringEx18_문제 {
+public class StringEx18_정답 {
 
 	public static void main(String[] args) {
 		
