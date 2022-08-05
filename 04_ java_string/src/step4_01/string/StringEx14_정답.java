@@ -3,7 +3,7 @@ package step4_01.string;
 import java.util.Scanner;
 
 /*
- * # 문자열 비교
+ * # 문자열 비교 
  * 
  * 예)
  * 코끼리
