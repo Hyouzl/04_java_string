@@ -21,6 +21,20 @@ public class StringEx16_정답 {
 		
 		System.out.print("검색할 단어를 입력하세요 : ");
 		String word = scan.next();
+		
+		int i = 0;
+		int len = word.length();
+		while (true) {
+			if (i + len > text.length()) {
+				System.out.println("false");
+				break;
+			}
+			else if(text.substring(i, i + len).equals(word)) {
+				System.out.println("true");
+				break;
+			}
+			else i++;
+		}
 
 	}
 

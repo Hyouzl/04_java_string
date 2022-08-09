@@ -28,6 +28,23 @@ public class StringEx17_정답 {
 		System.out.print("변경하고 싶은 단어를 입력하세요 : ");
 		String word = scan.nextLine();
 		
+		System.out.print("바꿀 단어 입력 :");
+		String change = scan.next();
+		
+		String temp[] = text.split(" ");
+		
+		for (int i = 0; i < temp.length; i++) {
+			if (temp[i].equals(word)) {
+				temp[i] = change;
+			}
+		}
+		
+		String text2 = "";
+		for (int i = 0; i < temp.length; i++) {
+			text2 += temp[i] + " ";
+		}
+		System.out.println(text2);
+	
 	}
 
 }
