@@ -17,7 +17,7 @@ import java.util.Scanner;
  * 		{1, 2},				javaking회원 		> 바나나구매
  * 		{2, 1},				abcd회원			> 사과구매
  * 		{0, 3},				qwer회원			> 딸기구매
- * 		...
+ * 		..
  * }
  */
 

@@ -45,10 +45,7 @@ public class StringEx18_정답 {
 				if (check[i] == 0) System.out.print("*");
 				else if (check[i] == 1) System.out.print(word.charAt(i));
 			}
-			/*for (int i =0; i< size; i++) {
-				System.out.print("*");
-				
-			}*/
+		
 			System.out.println();
 			System.out.println("영어단어를 입력하세요 >>> ");
 			String me = scan.next();
